@@ -1,0 +1,4022 @@
+const ASM_DATA = [
+{
+"tax": "AA-AP",
+"deptid": "00070",
+"descr": "Academic Programs",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-AP",
+"deptid": "00770",
+"descr": "Articulation",
+"loc": "AS",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ARSP",
+"deptid": "00063",
+"descr": "Acad Resources External Fndg",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ARSP",
+"deptid": "00441",
+"descr": "Acad Res & Strategic Plng",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ARSP",
+"deptid": "00442",
+"descr": "Beach XP",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ARSP",
+"deptid": "00445",
+"descr": "Inst Research &Analytics",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00002",
+"descr": "Academic Technology Svcs",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00021",
+"descr": "Instr'l Tchnlgy Supp Svcs",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00025",
+"descr": "Horn Center Computer Lab",
+"loc": "HORN CTR",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00091",
+"descr": "Tchnlgy Support Services",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00422",
+"descr": "Stdnt Perceptn of Teacher",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00509",
+"descr": "Innovation Lab",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00521",
+"descr": "Classroom Supp Services",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00532",
+"descr": "Faculty Instr Techn Supp",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-ATS",
+"deptid": "00533",
+"descr": "Academic Computing Svcs",
+"loc": "AS",
+"asm": "Jen White",
+"asmEmail": "Jen.White@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00005",
+"descr": "CED Outreach",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00015",
+"descr": "CED Clinical Practice",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00018",
+"descr": "Center for Eval & Educ Eff",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00031",
+"descr": "Liberal Studies",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00138",
+"descr": "Teacher Education",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00158",
+"descr": "Adv Styds in Educ&Counslg",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00400",
+"descr": "CED Instruction",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00413",
+"descr": "CED Administration",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00414",
+"descr": "Ed Single Subject",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00580",
+"descr": "Student Success & Advising Ctr",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00697",
+"descr": "CED Asessmnt Acreditation Offc",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00698",
+"descr": "Educational Leadership",
+"loc": "AS",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CED",
+"deptid": "00699",
+"descr": "CED Graduate Studies Office",
+"loc": "ED1",
+"asm": "Carrie Hernandez",
+"asmEmail": "Carrie.Hernandez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00161",
+"descr": "Military Sci Army ROTC",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00252",
+"descr": "Health Science",
+"loc": "HHS2",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00254",
+"descr": "Nursing",
+"loc": "NUR",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00259",
+"descr": "CHHS Academic Support",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00263",
+"descr": "Physical Therapy",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00264",
+"descr": "Kinesiology",
+"loc": "HHS2",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00269",
+"descr": "Health Care Management",
+"loc": "HHS2",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00282",
+"descr": "Family & Consumer Science",
+"loc": "FCS",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00305",
+"descr": "Speech Language Pathology",
+"loc": "LAB",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00368",
+"descr": "Recreation & Leisure Stdy",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00369",
+"descr": "Social Work",
+"loc": "SSPA",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00384",
+"descr": "Criminology,Crim Just,Emer Mgt",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00410",
+"descr": "CHHS Administration",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00411",
+"descr": "CHHS Instruction",
+"loc": "ET",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00416",
+"descr": "Ctr for Criminal Justice",
+"loc": "HS&D",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00421",
+"descr": "Public Policy & Admin",
+"loc": "SSPA",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CHHS",
+"deptid": "00743",
+"descr": "Burns Miller Japanese Gdn",
+"loc": "JG",
+"asm": "Staci Freeman",
+"asmEmail": "Staci.Freeman@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CIE",
+"deptid": "00689",
+"descr": "Center for Intl Education",
+"loc": "FOUND",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CIE",
+"deptid": "00690",
+"descr": "Int'l Students & Scholars",
+"loc": "FOUND",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CIE",
+"deptid": "00691",
+"descr": "Education Abroad",
+"loc": "FOUND",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CIE",
+"deptid": "00692",
+"descr": "Int'l Enrollment Mgmt",
+"loc": "FOUND",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00009",
+"descr": "Ctr Usability Desgn&Ass't",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00030",
+"descr": "Clorinda Donato Center",
+"loc": "AS",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00052",
+"descr": "Human Development",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00053",
+"descr": "Women's Gender & Sexuality St",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00116",
+"descr": "Journalism",
+"loc": "SSPA",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00222",
+"descr": "Environm'l Science & Policy",
+"loc": "FO2",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00234",
+"descr": "Rom Germ Russ Lang & Lit",
+"loc": "AS",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00280",
+"descr": "Comp Racial & Ethnic St (CRES)",
+"loc": "LA1",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00295",
+"descr": "English",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00297",
+"descr": "Comparative World Literature",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00300",
+"descr": "Communication Studies",
+"loc": "AS",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00301",
+"descr": "Classics Program",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00303",
+"descr": "Philosophy",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00304",
+"descr": "Religious Studies",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00350",
+"descr": "Psychology",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00356",
+"descr": "Linguistics",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00360",
+"descr": "CLA Technical Services",
+"loc": "LAB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00361",
+"descr": "College of Liberal Arts",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00362",
+"descr": "CLA Administration",
+"loc": "MHB",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00365",
+"descr": "Global Studies",
+"loc": "SSPA",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00366",
+"descr": "ATLAS Advising Center",
+"loc": "LA4",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00377",
+"descr": "Anthropology",
+"loc": "FO3",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00379",
+"descr": "Economics",
+"loc": "SSPA",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00380",
+"descr": "History",
+"loc": "FO2",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00381",
+"descr": "Geography",
+"loc": "LA4",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00382",
+"descr": "Political Science",
+"loc": "SSPA",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00383",
+"descr": "Sociology",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00386",
+"descr": "Africana Studies",
+"loc": "PSY",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00387",
+"descr": "American Indian Studies",
+"loc": "FO3",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00388",
+"descr": "Chicano/Latino Studies",
+"loc": "FO3",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00389",
+"descr": "American Studies",
+"loc": "FO2",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CLA",
+"deptid": "00392",
+"descr": "Asian/Asian Amer Studies",
+"loc": "FO3",
+"asm": "Terie Bostic",
+"asmEmail": "Terie.Bostic@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00057",
+"descr": "Biological Sciences",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00314",
+"descr": "Mathematics & Statistics",
+"loc": "FO3",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00323",
+"descr": "Jensen SAS Center",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00324",
+"descr": "Shark Beach Safety",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00325",
+"descr": "Physics & Astronomy",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00328",
+"descr": "Chemistry/Biochem",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00335",
+"descr": "College Corp",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00336",
+"descr": "CNSM Academic Advising",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00337",
+"descr": "Earth Science",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00396",
+"descr": "Science Education",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00397",
+"descr": "Science Safety",
+"loc": "MICRO",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00412",
+"descr": "CNSM Instruction",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00419",
+"descr": "IIRMES",
+"loc": "MICRO",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CNSM",
+"deptid": "00420",
+"descr": "CNSM Administration",
+"loc": "HSCI",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00010",
+"descr": "COB Administration",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00012",
+"descr": "COB Accreditation Office",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00020",
+"descr": "COB Instruction",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00055",
+"descr": "COB Graduate Prgms Office",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00059",
+"descr": "COB Advising Center",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00073",
+"descr": "COB Stdnt Ct for Prof Dev",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00090",
+"descr": "COB MBA Fee",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00092",
+"descr": "Accountancy",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00093",
+"descr": "Information Systems",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00094",
+"descr": "Finance",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00096",
+"descr": "Management & HRM",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00099",
+"descr": "Marketing",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COB",
+"deptid": "00153",
+"descr": "COB Instructional Tech",
+"loc": "COB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00180",
+"descr": "COE Instruction",
+"loc": "ECS",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00181",
+"descr": "COE Administration",
+"loc": "ECS",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00182",
+"descr": "Computer Eng/Science",
+"loc": "ECS",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00183",
+"descr": "Biomedical Engineering",
+"loc": "ET",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00187",
+"descr": "Chemical Engineering",
+"loc": "E2",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00189",
+"descr": "Civ Eng & Const Eng Mgmt",
+"loc": "VEC",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00190",
+"descr": "Electrical Engineering",
+"loc": "ECS",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00191",
+"descr": "Mechanical&Aerospace Engr",
+"loc": "ECS",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COE",
+"deptid": "00800",
+"descr": "Engrng Stdnt Success Ctr",
+"loc": "E2",
+"asm": "DeeDee Green",
+"asmEmail": "DeeDee.Green@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00117",
+"descr": "Cinematic Arts",
+"loc": "UTC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00214",
+"descr": "Art",
+"loc": "FA4",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00215",
+"descr": "Design",
+"loc": "DESN",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00217",
+"descr": "Music",
+"loc": "UMC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00218",
+"descr": "Applied Music Lessons",
+"loc": "UMC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00219",
+"descr": "Theatre Arts",
+"loc": "UT",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00220",
+"descr": "Dance",
+"loc": "CPAC/DC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00221",
+"descr": "Kleefeld Contemporary Art",
+"loc": "HORN CTR",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00405",
+"descr": "COTA Instruction",
+"loc": "LIB",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-COTA",
+"deptid": "00415",
+"descr": "COTA Administration",
+"loc": "LIB",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPAC",
+"deptid": "00060",
+"descr": "CarpenterPerfArtsCtr",
+"loc": "CPAC/DC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00006",
+"descr": "CPaCE Administrative Services",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00007",
+"descr": "CPaCE Info Technology Services",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00008",
+"descr": "CPaCE Student Services",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00160",
+"descr": "CPaCE American Lang Inst",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00270",
+"descr": "Advanced Media Productions",
+"loc": "UTC",
+"asm": "Chanel Patrick",
+"asmEmail": "Chanel.Patrick@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00704",
+"descr": "CPaCE Intl Training Prgms",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00705",
+"descr": "CPaCE Educ Abroad at the Beach",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00722",
+"descr": "CPaCE Financial Management",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00724",
+"descr": "CPaCE Administration",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00726",
+"descr": "CPaCE Summer Session",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00727",
+"descr": "CPaCE Academic Programs",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00728",
+"descr": "CPaCE Professional Programs",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00778",
+"descr": "CPaCE Study Abroad Travel",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00779",
+"descr": "CPaCE Marketing Communications",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00790",
+"descr": "CPaCE International Education",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00850",
+"descr": "Apld Data Analytics Higher Ed",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00851",
+"descr": "CCI Healthcare",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00852",
+"descr": "Center for Legal Studies",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00853",
+"descr": "Certified Nursing Assistant",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00854",
+"descr": "Crime and Intelligence Analyst",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00855",
+"descr": "Costume& Textiles Museum Study",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00856",
+"descr": "Cyber Security",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00857",
+"descr": "EMT Training",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00858",
+"descr": "Global Logistics Professional",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00859",
+"descr": "Human Resources Management",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00860",
+"descr": "Mind Edge Online Courses",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00861",
+"descr": "Meeting & Event Planning",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00862",
+"descr": "Corporate Ed Contracts",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00863",
+"descr": "Language Training Center",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00864",
+"descr": "Bio Manufacturing",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00865",
+"descr": "Ceramics",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00866",
+"descr": "Zero Emissions Vehicles",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00867",
+"descr": "Interfaith",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00868",
+"descr": "Title IX Investigator",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00869",
+"descr": "PASC Prelim Adm Ser Credential",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06020",
+"descr": "Faculty Summer Session COB",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06032",
+"descr": "Faculty Summer Session UHP",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06070",
+"descr": "Faculty Summer Session EOP",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06180",
+"descr": "Faculty Summer Session COE",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06361",
+"descr": "Faculty Summer Session CLA",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06400",
+"descr": "Faculty Summer Session CED",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06405",
+"descr": "Faculty Summer Session COTA",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06411",
+"descr": "Faculty Summer Session CHHS",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06412",
+"descr": "Faculty Summer Session CNSM",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "06545",
+"descr": "Faculty Summer Session USAA",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "00795",
+"descr": "CPaCE Ctr Intl Trade & Trsprtn",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07001",
+"descr": "Winter Session",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07002",
+"descr": "Open University Fall",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07003",
+"descr": "Open University Spring",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07004",
+"descr": "GS 700",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07005",
+"descr": "May Intersession",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07006",
+"descr": "Study Abroad",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07055",
+"descr": "MBA - Accelerated",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07056",
+"descr": "MBA - Saturday",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07093",
+"descr": "MS in Info Syst",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07111",
+"descr": "CPaCE Library Certificate",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07138",
+"descr": "Reading Authorization Program",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07158",
+"descr": "Teacher Librarian (ETEC 523)",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07180",
+"descr": "BS Engr Degree Completion",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07181",
+"descr": "Engineering 101 Dual Enroll",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07220",
+"descr": "MA Dance",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07222",
+"descr": "MS Sustainability Mgmt Policy",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07254",
+"descr": "BS Nursing",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07264",
+"descr": "MA Sport Mgmt",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07269",
+"descr": "MS Healthcare Admin",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07280",
+"descr": "SS Ethnic Studies",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07304",
+"descr": "Interfaith Certificate Program",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07350",
+"descr": "BS Psychology",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07361",
+"descr": "BA Liberal Arts",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07365",
+"descr": "MA International Affairs",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07369",
+"descr": "Master of Social Work",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07370",
+"descr": "School-Based Mental Health",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07381",
+"descr": "MS Geographic Inform. Science",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07384",
+"descr": "MS Criminology & Criminal Just",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07385",
+"descr": "BS in Criminology & CJ",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07410",
+"descr": "MS Emergency Mgmt",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07411",
+"descr": "MSW - AP",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07413",
+"descr": "Mathematics Instru Specialist",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07414",
+"descr": "Curriculum in Health Methods",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07416",
+"descr": "CRJU Post Management",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-CPACE",
+"deptid": "07421",
+"descr": "Master of Public Admin",
+"loc": "FOUND",
+"asm": "Gracie Cole",
+"asmEmail": "Gracie.Cole@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-DIV",
+"deptid": "00064",
+"descr": "Academic Affairs Admin",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-DIV",
+"deptid": "00065",
+"descr": "Office of the Provost",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-DIV",
+"deptid": "00437",
+"descr": "Dep of Inclusive Excellence AA",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-DIV",
+"deptid": "00438",
+"descr": "Academic Senate",
+"loc": "AS",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FA",
+"deptid": "00067",
+"descr": "Faculty Affairs",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FA",
+"deptid": "00418",
+"descr": "Employee Relations",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FA",
+"deptid": "00436",
+"descr": "Faculty Ctr for Prof Dev",
+"loc": "LIB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00066",
+"descr": "Future Planning Beach 2030",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00076",
+"descr": "Equitable & Empowering Culture",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00077",
+"descr": "Student-Ready U",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00078",
+"descr": "Reimagine Faculty",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00079",
+"descr": "Reimagine Staff",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00080",
+"descr": "Build Growth Strategy",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00081",
+"descr": "Advance Partnerships",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-FPB",
+"deptid": "00082",
+"descr": "Future-Ready U",
+"loc": "BH",
+"asm": "Marianne Hata",
+"asmEmail": "Marianne.Hata@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-GS",
+"deptid": "00071",
+"descr": "Graduate Center",
+"loc": "LIB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-GS",
+"deptid": "00517",
+"descr": "Thesis & Dissertation Off",
+"loc": "LIB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00014",
+"descr": "Lib Facilities Mgmt",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00087",
+"descr": "Lib ILS",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00088",
+"descr": "Lib Periodicals",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00089",
+"descr": "Lib Shelving",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00118",
+"descr": "Lib Reserve & Media",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00481",
+"descr": "Lib Special Collections",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00508",
+"descr": "Library Computer Labs",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00511",
+"descr": "University Library",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00512",
+"descr": "Library Circulation",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00513",
+"descr": "Lib Technical Services",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-LIB",
+"deptid": "00514",
+"descr": "Research & Info Services",
+"loc": "LIB",
+"asm": "Noah Kelly",
+"asmEmail": "Noah.Kelly@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-OSI",
+"deptid": "00543",
+"descr": "Ocean Studies",
+"loc": "LB",
+"asm": "Jeanine Pociask",
+"asmEmail": "Jeanine.Pociask@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00001",
+"descr": "AANHPI Student Achievement",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00011",
+"descr": "Off for Undergrdt Resrch",
+"loc": "FO5",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00013",
+"descr": "Research & Sponsored Programs",
+"loc": "FOUND",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00016",
+"descr": "Inst Innov Entrprneurship",
+"loc": "FO5",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00017",
+"descr": "Off of Econ Dev & Research",
+"loc": "FO5",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-RSCH",
+"deptid": "00034",
+"descr": "Research Compliance",
+"loc": "FO5",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00026",
+"descr": "Beach Transfer Transition Cent",
+"loc": "SSC",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00027",
+"descr": "GenExcel",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00032",
+"descr": "University Honors Program",
+"loc": "LIB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00050",
+"descr": "University Writing Center",
+"loc": "PH2",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00051",
+"descr": "Ctr for Community Engmnt",
+"loc": "AS",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00061",
+"descr": "Mentor, Advsng, Placement Sup",
+"loc": "AS",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00062",
+"descr": "High Impact Practices",
+"loc": "LIB",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00231",
+"descr": "Bickerstaff Ctr for SAAS",
+"loc": "GYM",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00272",
+"descr": "Univ Ctr Undergrad Advsg",
+"loc": "HORN CTR",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00448",
+"descr": "Undergrad Stdys &Acad Adv",
+"loc": "BH",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00505",
+"descr": "Learning Center",
+"loc": "HORN CTR",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "AA-USAA",
+"deptid": "00545",
+"descr": "University 100",
+"loc": "AS",
+"asm": "Cheryl Slocomb",
+"asmEmail": "Cheryl.Slocomb@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00171",
+"descr": "Beach Broadcast",
+"loc": "PYR",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00172",
+"descr": "Athletics Marketing&Promo",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00173",
+"descr": "Athl Communications",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00174",
+"descr": "Athletics Development",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00175",
+"descr": "Ath Ticket Operations",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00176",
+"descr": "Student Athlete Hlth & Wellns",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00177",
+"descr": "Athletics Facilities",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00178",
+"descr": "Athletics Game Management",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00179",
+"descr": "Department of Athletics",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00801",
+"descr": "Men's Basketball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00802",
+"descr": "Women's Basketball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00803",
+"descr": "Baseball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00804",
+"descr": "Softball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00805",
+"descr": "Men's Volleyball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00806",
+"descr": "Women's Volleyball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00807",
+"descr": "Soccer",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00808",
+"descr": "Tennis",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00809",
+"descr": "Men's Golf",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00810",
+"descr": "Women's Golf",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00811",
+"descr": "Men's Water Polo",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00812",
+"descr": "Women's Water Polo",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00813",
+"descr": "Men's Cross Country",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00814",
+"descr": "Women's Cross Country",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00815",
+"descr": "Men's Indoor Track",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00816",
+"descr": "Women's Indoor Track",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00817",
+"descr": "Men's Outdoor Track&Field",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00818",
+"descr": "Women's Outdoor Track&Field",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00819",
+"descr": "Beach Volleyball",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00820",
+"descr": "Spirit Squad",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00822",
+"descr": "External Event Management",
+"loc": "BAC",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "ATH",
+"deptid": "00823",
+"descr": "Blair Field",
+"loc": "PYR",
+"asm": "Paige Mackowiak",
+"asmEmail": "Paige.Mackowiak@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00591",
+"descr": "Envirmntl Health & Safety",
+"loc": "FM/SRM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00700",
+"descr": "Deferred Maintenance",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00701",
+"descr": "University Wide Utilities",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00702",
+"descr": "BBS Special Projects",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00712",
+"descr": "BBS-Construction Management",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00715",
+"descr": "BBS Mgmt",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00716",
+"descr": "MH Maintenance & Repair",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00717",
+"descr": "Facilities Mgmt",
+"loc": "BH",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00781",
+"descr": "Facilities Services",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00782",
+"descr": "Night Building Services",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00783",
+"descr": "FM Engineering Services",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00784",
+"descr": "FM Grounds",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00785",
+"descr": "FM Custodial",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00786",
+"descr": "Facilities Operation",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-BBS",
+"deptid": "00787",
+"descr": "Design &Construction Svcs",
+"loc": "FM",
+"asm": "Jennifer Martinez",
+"asmEmail": "Jennifer.Martinez@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00103",
+"descr": "Financial & Tax Reporting",
+"loc": "FOUND",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00104",
+"descr": "FM Information Systems",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00105",
+"descr": "Accounting for Campus",
+"loc": "FOUND",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00106",
+"descr": "Accounts Payable",
+"loc": "FOUND",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00107",
+"descr": "Student Accounting Svcs",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00212",
+"descr": "Controller's Office",
+"loc": "FOUND",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00592",
+"descr": "Risk Management",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00725",
+"descr": "Student Financial Svcs",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00731",
+"descr": "Financial Aid BusinessOfc",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00732",
+"descr": "CMS Financial Services",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00738",
+"descr": "Financial Management",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00739",
+"descr": "Procrmnt & Contract Svcs",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00748",
+"descr": "Procurement Services",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "00749",
+"descr": "Contract Services",
+"loc": "BH",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-FM",
+"deptid": "ACCTG",
+"descr": "Accounting Transactions Only",
+"loc": "FOUND",
+"asm": "Robert Garvin",
+"asmEmail": "Robert.Garvin@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-HRM",
+"deptid": "00664",
+"descr": "Human Resources Mgmt",
+"loc": "BH",
+"asm": "Elyana Campos",
+"asmEmail": "Elyana.Campos@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-HRM",
+"deptid": "00730",
+"descr": "HR Service Group",
+"loc": "BH",
+"asm": "Elyana Campos",
+"asmEmail": "Elyana.Campos@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-HRM",
+"deptid": "00740",
+"descr": "HR Technology SupportSvcs",
+"loc": "BH",
+"asm": "Elyana Campos",
+"asmEmail": "Elyana.Campos@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-HRM",
+"deptid": "00741",
+"descr": "Staff Human Resources",
+"loc": "BH",
+"asm": "Elyana Campos",
+"asmEmail": "Elyana.Campos@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00111",
+"descr": "Parking & Ops Info Technology",
+"loc": "BH",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00550",
+"descr": "Operations",
+"loc": "REPR",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00551",
+"descr": "Copier Program",
+"loc": "REPR",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00735",
+"descr": "Parking & Operations",
+"loc": "BH",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00736",
+"descr": "HR Operations",
+"loc": "BH",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00754",
+"descr": "Parking Events Svcs",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00756",
+"descr": "Parking & Traffic Enfrmnt",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00760",
+"descr": "Parking Citation Svcs",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00761",
+"descr": "Parking Repairs&Maintenance",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00763",
+"descr": "Parking Administration",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00764",
+"descr": "Sustainable Trnsprtation",
+"loc": "PKADMN",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-PO",
+"deptid": "00791",
+"descr": "Print Shop Production",
+"loc": "REPR",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-UP",
+"deptid": "00744",
+"descr": "UPAdministrative Svcs",
+"loc": "UP",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-UP",
+"deptid": "00745",
+"descr": "University Police",
+"loc": "UP",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-UP",
+"deptid": "00746",
+"descr": "UP Support Services",
+"loc": "UP",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-UP",
+"deptid": "00747",
+"descr": "UP Field Services",
+"loc": "UP",
+"asm": "Megan Warren",
+"asmEmail": "Megan.Warren@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00003",
+"descr": "Univ Wide Budget Mgmt",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00019",
+"descr": "Budget and Administration",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00589",
+"descr": "Public Records & Audit",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00710",
+"descr": "Equity and Compliance",
+"loc": "FOUND",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00737",
+"descr": "Budget Management",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00767",
+"descr": "Admin & Finance Div of",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DAF-VPAF",
+"deptid": "00768",
+"descr": "Event Services",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT",
+"deptid": "00708",
+"descr": "ITS Information Security",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00028",
+"descr": "ITS Servers Systems & Web",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00501",
+"descr": "ITS Data Ctr &Emgncy Mgmt",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00531",
+"descr": "Division of Info Tech (DOIT)",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00751",
+"descr": "ITS Accessible Technology",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00752",
+"descr": "ITS Network Telecom & Sec",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DOIT-ITS",
+"deptid": "00753",
+"descr": "ITS Svcs Mgmt &Operations",
+"loc": "BH",
+"asm": "Korin Coombs",
+"asmEmail": "Korin.Coombs@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00004",
+"descr": "UW Student Financial Aid",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00132",
+"descr": "Univ Outrch & Schl Reltns",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00143",
+"descr": "Center for Scholarships",
+"loc": "USU",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00585",
+"descr": "ES Financial Aid",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00586",
+"descr": "ES Student Services",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00771",
+"descr": "Enrollment Services",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00772",
+"descr": "ES Student Records",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00774",
+"descr": "ES Admissions",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-ES",
+"deptid": "00775",
+"descr": "ES Student Systems",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-HL",
+"deptid": "00119",
+"descr": "Housing Social Activities",
+"loc": "HO",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-HL",
+"deptid": "00123",
+"descr": "Student Housing",
+"loc": "HO",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00120",
+"descr": "Student Affrs Div Support",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00121",
+"descr": "Student Affrs Development",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00122",
+"descr": "Student Health Services",
+"loc": "SHS",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00124",
+"descr": "Dean of Students",
+"loc": "USU",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00125",
+"descr": "Student Life and Developmnt",
+"loc": "USU",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00126",
+"descr": "New Student & Family Pgm",
+"loc": "FOUND",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00127",
+"descr": "Child Development Center",
+"loc": "CDC",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00128",
+"descr": "Stdnt Conduct&Ethical Dev",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00129",
+"descr": "Veterans Services",
+"loc": "FOUND",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00130",
+"descr": "TRIO & Migrant Programs",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00131",
+"descr": "Bob Murphy Access Center",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00132",
+"descr": "Univ Outrch & Schl Reltns",
+"loc": "BH",
+"asm": "Candy Nguyen",
+"asmEmail": "Candy.Nguyen@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00133",
+"descr": "Testing",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00134",
+"descr": "EOP",
+"loc": "LA1",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00135",
+"descr": "Counseling & Psych Svcs",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00136",
+"descr": "Career Development Ctr",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00137",
+"descr": "EOP 100 Instruction",
+"loc": "LA3",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00139",
+"descr": "Associated Students Inc",
+"loc": "USU",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00140",
+"descr": "Ofc of Belonging & Inclusion",
+"loc": "FO3",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00141",
+"descr": "Assessment",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00142",
+"descr": "Title IX",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00144",
+"descr": "Men's Success Initiative",
+"loc": "LA1",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00145",
+"descr": "Basic Needs",
+"loc": "USU",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00146",
+"descr": "Dream Success Center",
+"loc": "USU",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00147",
+"descr": "Health & Wellness Admin",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00148",
+"descr": "SA Comms & Marketing",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00149",
+"descr": "Women's & Gender Equity Center",
+"loc": "SSC",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00150",
+"descr": "Student Success and Engagement",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00151",
+"descr": "Student Engagement",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "DSA-SA",
+"deptid": "00152",
+"descr": "Guardian Scholars",
+"loc": "BH",
+"asm": "Claudia Plaza",
+"asmEmail": "Claudia.Plaza@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "PRES",
+"deptid": "00033",
+"descr": "Ofc of Govt & Cmty Rltns",
+"loc": "FOUND",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "PRES",
+"deptid": "00711",
+"descr": "President Office of the",
+"loc": "BH",
+"asm": "Dominique Dupuy",
+"asmEmail": "Dominique.Dupuy@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00022",
+"descr": "Univ Relations & Dvlpmt",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00023",
+"descr": "University Development",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00029",
+"descr": "Planned Giving & Stewardship",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00035",
+"descr": "University Relations",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00036",
+"descr": "Advancement Services",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00686",
+"descr": "Commencement",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00742",
+"descr": "Alumni Relations",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+},
+{
+"tax": "URD",
+"deptid": "00765",
+"descr": "Strategic Communications",
+"loc": "BH",
+"asm": "Marcella Penunuri",
+"asmEmail": "Marcella.Penunuri@csulb.edu",
+"coordName": "",
+"coordEmail": ""
+}
+];
