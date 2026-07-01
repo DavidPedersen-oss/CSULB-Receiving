@@ -288,9 +288,42 @@ function selectDept(d){
   `;
   deptSelected.classList.add('show');
   coordFields.classList.remove('hidden');
+
   const saved = loadCoord(d);
+  const candidates = d.coordCandidates || [];
+
+  renderCoordSuggestions(candidates, saved);
+
   coordName.value = saved.name || '';
   coordEmail.value = saved.email || '';
+}
+
+function renderCoordSuggestions(candidates, saved){
+  const box = document.getElementById('coordSuggestions');
+  if(!candidates.length){
+    box.innerHTML = `<small class="hint" style="margin-top:0;">No coordinator auto-detected for this department — enter one manually below if you know it, or leave blank.</small>`;
+    return;
+  }
+  box.innerHTML =
+    `<small class="hint" style="margin-top:0; margin-bottom:8px;">Suggested contact${candidates.length > 1 ? 's' : ''} for this department (from the directory) — click one to use it, or type your own below:</small>` +
+    `<div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px;">` +
+    candidates.map((c,i) => {
+      const isSelected = saved.email && saved.email.toLowerCase() === c.email.toLowerCase();
+      return `<button type="button" class="btn secondary coord-suggest-btn" style="font-size:12.5px; padding:7px 12px; ${isSelected ? 'background:var(--navy); color:#fff;' : ''}" data-idx="${i}">
+        👤 ${escapeHtml(c.name)} <span style="opacity:.75;">(${escapeHtml(c.title)})</span>
+      </button>`;
+    }).join('') +
+    `</div>`;
+
+  box.querySelectorAll('.coord-suggest-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const c = candidates[parseInt(btn.dataset.idx)];
+      coordName.value = c.name;
+      coordEmail.value = c.email;
+      if(currentDept) saveCoord(currentDept, c.name, c.email);
+      renderCoordSuggestions(candidates, {name: c.name, email: c.email});
+    });
+  });
 }
 
 [coordName, coordEmail].forEach(el => {

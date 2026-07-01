@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -200,6 +199,7 @@
       <div class="selected-box" id="deptSelected"></div>
 
       <div id="coordFields" class="hidden">
+        <div id="coordSuggestions"></div>
         <div class="grid2">
           <div>
             <label for="coordName">Office coordinator name (optional)</label>
@@ -268,7 +268,7 @@
       <ol>
         <li><span class="step-title">Pick the delivery type.</span> At the top of "New Email," choose <b>Package</b>, <b>Letter/Mail</b>, or <b>Pallet/Freight</b> depending on what came in. If it's small enough to hand-deliver normally, it's a Package or Letter. If it's too big, heavy, or bulky for standard delivery, choose Pallet/Freight.</li>
         <li><span class="step-title">Find the recipient.</span> Type the name on the package into the search box. Click their name when it pops up — their email fills in automatically. If they don't show up in the list, just type their email in manually.</li>
-        <li><span class="step-title">Find their department.</span> Type the department name (or the person's college/office, if you know it) into the department search box and click the right match. This automatically adds their ASM (Administrative Services Manager) as a Cc on the email so the department knows a package arrived. If you also know their office coordinator, you can add that name/email too — the tool remembers it for next time you pick that department.</li>
+        <li><span class="step-title">Find their department.</span> Type the department name (or the person's college/office, if you know it) into the department search box and click the right match. This automatically adds their ASM (Administrative Services Manager) as a Cc on the email. If the tool has a likely office coordinator on file for that department, it'll show them as a button — just click their name to add them too. If no suggestion appears, you can type one in manually, and the tool will remember it for next time you pick that department.</li>
         <li><span class="step-title">Fill in the details.</span> Add the vendor name and tracking number if you have them. For Pallet/Freight, you must also check at least one reason (size, weight, or bulky) and remember to attach a photo of the item before sending.</li>
         <li><span class="step-title">Click "Generate Email."</span> You'll see a preview of exactly what will be sent — double check the recipient and Cc addresses.</li>
         <li><span class="step-title">Click "Open in Outlook."</span> This opens a new email draft in Outlook with everything already filled in. Attach a photo if needed (for pallets), give it one last look, and hit Send.</li>
